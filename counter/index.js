@@ -1,11 +1,16 @@
-// document.getElementById("count-el").innerText = 5
-
-// let count = 0
-// console.log(count)
 let count = 0
 
+let d = document.getElementById("Display")
+
 function increment() {
-    count = count + 1
+    count += 1
+    document.getElementById("count-el").innerText = count
+}
+
+function save() {
+    let cstr = count + " - "
+    d.textContent += cstr
+    count = 0
     document.getElementById("count-el").innerText = count
 
 }
