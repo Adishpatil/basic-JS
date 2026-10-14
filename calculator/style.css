@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+}
+
+button {
+    margin: 10px 5px;
+    padding: 5px 5px;
+    text-decoration: solid;
+
+}
+
+#sum {
+    text-decoration: underline;
+}
